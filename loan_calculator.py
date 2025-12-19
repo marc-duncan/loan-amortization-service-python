@@ -1,11 +1,7 @@
-#   By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
-
-# Name:       Marc Duncan
-# Section:           559
-# Assignment:        LAB Topic 11 - loan calculator (individual)
-# Date:              11/02/2025
+# Name:        Marc Duncan
+# Section:     559
+# Project:     loan calculator (individual)
+# Date:        11/02/2025
 
 #inputs for collecting filename, principal amount, term length, annual interest rate.
 file_name = input("Enter the output filename: ")
@@ -40,3 +36,4 @@ with open(file_name, "w") as j:
 
 #write the information on the new file 
         j.write(f'{month_ct},${total_interest:.2f},${balance:.2f}\n')
+
